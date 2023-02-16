@@ -1,0 +1,68 @@
+.collapsible{
+    background-color: #b498c9 !important;
+    cursor: pointer;
+    border:none;
+    color:white;
+    font-size: 20px !important;
+    margin-left: 30px;
+    padding:10px;
+
+}
+.sidebar{
+    width: 232px;
+    background-color: #b498c9;
+    padding: 20px;
+    margin-left: -20px;
+    position:-webkit-sticky;
+    position: sticky;
+    
+}
+.Main {
+    margin-left: 0px;
+    background-color: #b498c9 !important;
+    height: 100vh;
+    width: 212px;
+    
+}
+.h1-add{
+    color:white;font-weight: bolder;text-align: center;
+  }
+.cont{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+}
+.h1-txt{
+    margin-left: 25%;
+    margin-top: -710px;
+    
+}
+.frame-pdf{
+    width: 82vw;
+    height: 100vh;
+    margin-left: -124px;
+    margin-right: 14px;
+    margin-top: 50px;
+}
+.frame-vid{
+    width: 900px;
+    height: 600px;
+    
+}
+.h1-pdf{
+    margin-top: -60px !important;
+    margin-left: 230px;
+    background-color:white;
+    width: 82vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    height: 80px;
+    
+
+
+}
+.h1-vid{
+    margin-top: 140px;
+}

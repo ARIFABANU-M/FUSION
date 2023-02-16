@@ -1,0 +1,81 @@
+.sidebar{
+  background-color: #b498c9;
+  margin-left: 0px;
+  width: 230px;
+  height: 650px;
+  margin-top: -20px;
+  top: 0%;
+  left: 0%;
+}
+
+.collapsible {
+  position: relative;
+  top: 30px;
+  background-color: #b498c9;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  overflow: hidden;
+  width:80%;
+  border: none;
+  text-align: left;
+  margin-left: 30px;
+  outline: none;
+  font-size: 16px;
+  bottom: 2px;left: -10px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(255, 255, 255,0.2);
+  
+}
+
+.collapsible:after {
+  content: '\02C3 ';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\02C5";
+}
+
+.content {
+  position: relative;
+  top:30px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: visible;
+  transition: 0.2s ease-out;
+  text-decoration:none;
+  margin-left: 50px;
+  background-color: #b498c9;
+  font-size:20px;
+  color: white;
+ 
+  
+}
+.h1-add{
+  color:white;font-weight: bolder;text-align: center;
+}
+.card-add{
+  position: relative;bottom: 2px;left: -10px;
+}
+.sidebar{
+  top:2%;
+  position: relative;
+}
+.content a:link{
+  text-decoration: none;
+}
+.content a:visited{
+  color:black;
+}
+.content a:hover{
+  color: rgb(71, 66, 66);
+}
+.content a:active{
+  color:white;
+}
